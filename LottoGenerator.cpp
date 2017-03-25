@@ -39,7 +39,7 @@ int main()
 
 					while (choice == 'y' || choice == 'Y')
 					{
-						srand(time(NULL));
+						srand((unsigned int)time(NULL));
 
 						lotto1 = rand() % 42 + 1;
 						lotto2 = rand() % 42 + 1;
@@ -124,7 +124,7 @@ int main()
 
 					while (choice == 'y' || choice == 'Y')
 					{
-						srand(time(NULL));
+						srand((unsigned int)time(NULL));
 
 						lotto1 = rand() % 45 + 1;
 						lotto2 = rand() % 45 + 1;
@@ -208,7 +208,7 @@ int main()
 
 					while (choice == 'y' || choice == 'Y')
 					{
-						srand(time(NULL));
+						srand((unsigned int)time(NULL));
 
 						lotto1 = rand() % 49 + 1;
 						lotto2 = rand() % 49 + 1;
@@ -292,7 +292,7 @@ int main()
 
 					while (choice == 'y' || choice == 'Y')
 					{
-						srand(time(NULL));
+						srand((unsigned int)time(NULL));
 
 						lotto1 = rand() % 55 + 1;
 						lotto2 = rand() % 55 + 1;
@@ -376,7 +376,7 @@ int main()
 
 					while (choice == 'y' || choice == 'Y')
 					{
-						srand(time(NULL));
+						srand((unsigned int)time(NULL));
 
 						lotto1 = rand() % 58 + 1;
 						lotto2 = rand() % 58 + 1;
